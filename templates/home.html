@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="cover-container h-100" >
+   <div class="row d-flex justify-content-center" >
+      <div class="col-6">
+        <h1 class="cover-heading">World first parts catalog</h1>
+          <p class="lead">This site can be used to look up<strong>BMW</strong>  part numbers
+              and approximate part prices. The Parts are grouped into
+              diagrams and diagrams are grouped into categories and subcategories.</p>
+          <p class="lead">
+          <a href="{% url 'catalog' %}" class="btn btn-lg btn-secondary">Learn more</a>
+          </p>
+      </div>
+   </div>
+</div>
+
+
+{% endblock %}

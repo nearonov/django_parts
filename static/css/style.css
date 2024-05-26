@@ -1,0 +1,80 @@
+html {
+	height: 100%;
+}
+header{
+    background-color: #7abaff;
+
+}
+footer{
+    background-color: #eccccf;
+    height: 110px;
+    text-align: center;
+     background:#30363b url(../bootstrap5_files/img/preview.png) ;
+    width: 1240px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*overflow-x: hidden;*/
+
+    min-height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cover-container{
+    color: #fff;
+    background-image: url("../img/7d4338-QQ截图20230311153814.png");
+    padding-top: 20%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.catalog-container{
+    color: #f32b06;
+    background-image: url("../img/93740cf6767811eea1d07a2f0d1382ba_upscaled.jpg");
+    padding-top: 40%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.catalog{
+    background-color: white;
+    background-position: center;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: #0a58ca;
+
+}
+.catalog-card{
+    text-align: center;
+    font-size: 3em;
+    min-height: 100px;
+    background-color: #f5f5f5;
+}
+
+.catalog-title{
+    padding: 1em;
+}
+
+.manufacturers{
+
+}
+
+.catalog-link{
+    color: #333;
+}
+
+.catalog-link:hover{
+    color: #e50d57;
+    text-decoration: none;
+}

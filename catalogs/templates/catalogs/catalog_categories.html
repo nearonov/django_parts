@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="catalog-container h-100" >
+   <div class="row d-flex justify-content-center" >
+      <div class="col-11">
+          <div class="catalog">
+                  <div class="manufacturers">
+                      <h2 class="catalog-title">Categories</h2>
+                      <div class="row">
+                          {% for category in categories %}
+                          <div class="col-3">
+                              <a class="catalog-link" href="{% url 'catalog-parts-view' manufacturer.id car.id category.id %}">
+                                   <div class="catalog-card">
+                                        {{ category.name }}
+                                   </div>
+                              </a>
+
+                          </div>
+                          {% endfor %}
+
+                      </div>
+                  </div>
+          </div>
+      </div>
+   </div>
+</div>
+{% endblock content %}

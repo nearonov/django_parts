@@ -1,0 +1,21 @@
+body {
+    background: url("../img/1.jpg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: 855px 755px;
+    -o-background-size: cover;
+    padding-top: 56px;
+    background-color: lightgray;
+
+}
+
+#start-purchase-btn {
+    background-color: #23364e;
+    border-color: #23364e;
+    color: white;
+}
+
+#start-purchase-link {
+    text-decoration: none;
+    color: white;
+}
